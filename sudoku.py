@@ -30,9 +30,13 @@ def solve_sudoku(sudoku):
 
     # If all cells are filled, the Sudoku is solved
 
-    # Generate random numbers from 1 to 9 -> UNIQUE
     numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     random.shuffle(numbers)
+    # Loop over these numbers and check it they are valid in the empty cell
+    for i in range(9):
+        current_guess = numbers[i]
+    
+    return False
 
 sudoku = sl.sudokus[0]
 
