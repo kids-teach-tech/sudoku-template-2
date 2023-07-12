@@ -9,7 +9,7 @@ def is_valid_move(sudoku, row, col, num):
     for i in range(9):
         if sudoku[row][i] == num:
             return False
-        if sudoku[i][column] == num:
+        if sudoku[i][col] == num:
             return False
 
     start_row = (row // 3) * 3
