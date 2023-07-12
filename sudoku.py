@@ -23,7 +23,8 @@ def is_valid_move(sudoku, row, col, num):
 
 def generate_sudoku():
     # Generate a new Sudoku puzzle by solving an empty sudoku, this only works if you randomly choose the order solve_sudoku() guesses
-
+    return True # Placeholder
+    
 def solve_sudoku(sudoku):
     # Find an empty cell in the Sudoku
 
