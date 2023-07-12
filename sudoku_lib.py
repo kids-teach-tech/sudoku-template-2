@@ -44,7 +44,7 @@ def find_empty_cell(sudoku):
         for col in range(9):
             if sudoku[row][col] == 0:
                 return row, col
-    return -1, -1
+    return [-1, -1]
 
 def remove_cells(sudoku, cells_to_remove):
     # Remove random cells from the solved Sudoku
