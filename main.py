@@ -1,4 +1,4 @@
-import sudoku
+import sudoku as sl
 import random
 
 def sudokuCoordinates(coords):
@@ -41,7 +41,7 @@ def solve_sudoku(sudoku):
 sudoku = generate_sudoku()
 
 while (True):
-    sudoku.display_sudoku(sudoku)
+    sl.display_sudoku(sudoku)
 
     num = int(input("What number would you like to place?: "))
     position = sudokuCoordinates(input("Where woudld you like to place it? [X,Y]: "))
