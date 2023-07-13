@@ -1,3 +1,5 @@
+import random
+
 def display_sudoku(sudoku_board):
     # Print the column numbers
     repeatCharacter(" ", 1+2)
